@@ -4,11 +4,11 @@
 # # Milestones 3
 # ## Covariance & Correlation
 # ### Prepared by:
-# HAFIFI BIN YAHYA - WQD170042                                          
-# NOR ASMIDAH BINTI MOHD ARSHAD - WQD180006                             
-# MAS RAHAYU BINTI MOHAMAD - WQD180048                                  
-# LEE CHUN MUN - WQD180066                                              
-# JOJIE ANAK NANJU - WQD180029 
+# WQD170042                                          
+# WQD180006                             
+# WQD180048                                  
+# WQD180066                                              
+# WQD180029 
 
 # ## Loading Data
 # The stock data is obtained from web scrapping as well as from stock's historical website (Investing.com) for stock history before Feb 2019 (Remark: We started scrapping from Feb).
