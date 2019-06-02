@@ -1,4 +1,4 @@
-# Amateur Data Mining 
+# Data Mining 
 
 Acquisition of data (Group)
 
