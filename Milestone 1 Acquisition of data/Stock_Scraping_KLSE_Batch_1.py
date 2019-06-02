@@ -2,11 +2,11 @@
 #                                                                                          #
 #      This code is written during team meet-up by team members as shown below ...         #
 #                                                                                          #  
-#                    WQD170042                                          #
-#                    WQD180006                             #
-#                    WQD180048                                  #
-#                    WQD180066                                              #
-#                    WQD180029                                          #
+#                    WQD170042                                                             #
+#                    WQD180006                                                             #
+#                    WQD180048                                                             #
+#                    WQD180066                                                             #
+#                    WQD180029                                                             #
 #                                                                                          #
 ############################################################################################
 
@@ -114,7 +114,7 @@ class AppCrawler:
 
 
 # Defining database connection that use to store crawled stock data together with the date of the stock price         
-        connection = pymysql.connect(host='localhost', user='root', password='see26288', db='KLSE')
+        connection = pymysql.connect(host='localhost', user='root', password='', db='KLSE')
         cursor = connection.cursor()
         
         current_Date = datetime.now()
