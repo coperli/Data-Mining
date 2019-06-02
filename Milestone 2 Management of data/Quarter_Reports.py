@@ -2,11 +2,11 @@
 #                                                                                          #
 #      This code is written during team meet-up by team members as shown below ...         #
 #                                                                                          #  
-#                    HAFIFI BIN YAHYA - WQD170042                                          #
-#                    NOR ASMIDAH BINTI MOHD ARSHAD - WQD180006                             #
-#                    MAS RAHAYU BINTI MOHAMAD - WQD180048                                  #
-#                    LEE CHUN MUN - WQD180066                                              #
-#                    JOJIE ANAK NANJU - WQD180029                                          #
+#                    WQD170042                                                             #
+#                    WQD180006                                                             #
+#                    WQD180048                                                             #
+#                    WQD180066                                                             #
+#                    WQD180029                                                             #
 #                                                                                          #
 ############################################################################################
 
