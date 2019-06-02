@@ -2,11 +2,11 @@
 #                                                                                          #
 #      This code is written during team meet-up by team members as shown below ...         #
 #                                                                                          #  
-#                    WQD170042                                          #
-#                    WQD180006                             #
-#                    WQD180048                                  #
-#                    WQD180066                                              #
-#                    WQD180029                                          #
+#                    WQD170042                                                             #
+#                    WQD180006                                                             #
+#                    WQD180048                                                             #
+#                    WQD180066                                                             #
+#                    WQD180029                                                             #
 #                                                                                          #
 ############################################################################################
 
@@ -20,7 +20,7 @@ import lxml
 
 
 # Retrieving list of main board companies from KLSE database, Main_Listed_Companies table.
-connection = pymysql.connect(host='localhost', user='root', password='see26288', db='KLSE')
+connection = pymysql.connect(host='localhost', user='root', password='', db='KLSE')
 cursor = connection.cursor()
 query = "SELECT `stock_code` FROM `main_listed_companies`"
 cursor.execute(query)
@@ -64,7 +64,7 @@ for company_code in companies_codes:
         if (x):
             
             # Storing scrapped data to News_Announcement_Links table in KLSE database.
-            connection = pymysql.connect(host='localhost', user='root', password='see26288', db='KLSE')
+            connection = pymysql.connect(host='localhost', user='root', password='', db='KLSE')
             cursor = connection.cursor()
             
             insert_to_database = (company_code, main_site, stock_news_link)
