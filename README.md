@@ -1,13 +1,6 @@
 # Data Mining 
 
-Acquisition of data (Group)
-
-Limited to the following area: 
-•	KLSE stock data (Web crawler)
-•	https://www.thestar.com.my/business/marketwatch/stocks/?qcounter=SAPNRG
-
-
-Acquisition of data (Group)
+1) Acquisition of data (Group)
 Limited to the following area: 
 •	KLSE stock data (Web crawler)
 •	https://www.thestar.com.my/business/marketwatch/stocks/?qcounter=SAPNRG
@@ -20,7 +13,7 @@ Python Source Code:
 SQL source code
 •	KLSE_DB.sql - To create KLSE database and related tables for MySQL
 
-3	Milestone 2 (Management of data (Group))
+2)	Milestone 2 (Management of data (Group))
 
 Management of data
 •	Pulling together large volumes of data and merging multiple sources (such as web information (stock index), social media, WhatsApp and news) to create the one big analysis record for analytics. Expect to do this process over and over again until a useful set of data is prepared.
@@ -39,7 +32,7 @@ i)	Collect KLSE bursa news through twitter API streaming
 SQL source code
 •	klse_nostock.sql - Sample dataset from KLSE database to be imported into any database that are support e.g. MySQL
 
-4	Milestone 3 (Processing of data)
+3)	Milestone 3 (Processing of data)
 
 Calculation of Covariance between Multivariate and we load in the data to stock dataframe for analysis.
 Python Source Code:
@@ -49,33 +42,27 @@ i)	This code is to determine the correlation and covariance of the stock
 i)	Scrape news announcement or news  from KLSCscreener related to the stock .
 Dataset from telco and media
 
-5	Milestone 4 
-Interpretation of data with video deposit link address
+4)	Milestone 4 
+Interpretation of data
 
-6	Milestone 5 
-Communication of insights of data with video deposit link address.
+5)	Milestone 5 
+Communication of insights of data 
 
-7	Milestone 6 
+6)	Milestone 6 
 Provide a user with recommendations around optimal actions to achieve investment objectives such as profits and return on investment.
 
-SAS Enterprise Project Folder – upload into github SAS Miner
+SAS Enterprise Project Folder 
 
-8.1	Software and Hardware environment. 
+7)	Software and Hardware environment. 
 
 Software 	Version 
-Operating System	 MS Windows Version 10
-IDE	JetBrains PyCharm Community Edition 2019.1.1 x64
-Programming Language	Python 3.7 (32 bit)
-Web Server	Apache 2.4 (Bitnami XAMPP with Control Panel v3.2.3)
-
-Database server	
-MySQL Ver 15.1 Distrib 10.1.38-MariaDB, for Win64 (AMD64) (Bitnami XAMPP with Control Panel v3.2.3)
-
-DB Browser	
-phpMyAdmin 4.6.5.2 (Bitnami XAMPP with Control Panel v3.2.3)
-
-Analytic Modelling	
-SAS Enterprise Miner Workstation 14.1
+Operating System:	 MS Windows Version 10
+IDE:	JetBrains PyCharm Community Edition 2019.1.1 x64
+Programming Language:	Python 3.7 (32 bit)
+Web Server:	Apache 2.4 (Bitnami XAMPP with Control Panel v3.2.3)
+Database server: MySQL Ver 15.1 Distrib 10.1.38-MariaDB, for Win64 (AMD64) (Bitnami XAMPP with Control Panel v3.2.3)
+DB Browser: phpMyAdmin 4.6.5.2 (Bitnami XAMPP with Control Panel v3.2.3)
+Analytic Modelling: SAS Enterprise Miner Workstation 14.1
 
 Hardware	Minimum Requirement
 Processor	Intel Core i7 3.66 GHz or faster
