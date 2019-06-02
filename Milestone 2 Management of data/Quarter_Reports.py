@@ -18,7 +18,7 @@ import pymysql
 
 
 # Retrieving list of main board companies from KLSE database, Main_Listed_Companies table.
-connection = pymysql.connect(host='localhost', user='root', password='see26288', db='KLSE')
+connection = pymysql.connect(host='localhost', user='root', password='', db='KLSE')
 cursor = connection.cursor()
 query = "SELECT `stock_code` FROM `Main_Listed_Companies` "
 cursor.execute(query)
@@ -110,7 +110,7 @@ for company_code in companies_codes:
         a = a + 6
         
         # Storing scrapped data to Quarter_Reports table in KLSE database.
-        connection = pymysql.connect(host='localhost', user='root', password='see26288', db='KLSE')
+        connection = pymysql.connect(host='localhost', user='root', password='', db='KLSE')
         cursor = connection.cursor()
         
         insert_to_database = (company_code, EPS, DPS, NTA, Revenue, PL, Quarter, Q_Year)
