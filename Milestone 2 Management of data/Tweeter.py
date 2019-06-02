@@ -2,11 +2,11 @@
 #                                                                                          #
 #      This code is written during team meet-up by team members as shown below ...         #
 #                                                                                          #  
-#                    HAFIFI BIN YAHYA - WQD170042                                          #
-#                    NOR ASMIDAH BINTI MOHD ARSHAD - WQD180006                             #
-#                    MAS RAHAYU BINTI MOHAMAD - WQD180048                                  #
-#                    LEE CHUN MUN - WQD180066                                              #
-#                    JOJIE ANAK NANJU - WQD180029                                          #
+#                    WQD170042                                                             #
+#                    WQD180006                                                             #
+#                    WQD180048                                                             #
+#                    WQD180066                                                             #
+#                    WQD180029                                                             #
 #                                                                                          #
 ############################################################################################
 
@@ -38,14 +38,14 @@ WORDS = ['#5GMalaysia','#KhabarBaik','#MadePossible','#DigitalNation','#HidupLeb
 #ACCESS_TOKEN = "TOKEN"
 #ACCESS_TOKEN_SECRET = "TOKEN_SECRET"
 
-ACCESS_TOKEN = "69793210-cQfMYtjTriuL2dB0nCzftkTjYBsSB0z8YM4MWKo6n"
-ACCESS_TOKEN_SECRET = "EtGiwIWFkYkFwCxUyvW3qOkbylgb4ONy5Np9MRTAEJQv2"
-CONSUMER_KEY = "DSTr85cSnpFSELigMDsPoKGYI"
-CONSUMER_SECRET = "ke9a5eXnRrVfNbeKU36UyRJegdIgi3QhUrBIsMC5OYBUlodm0X"
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
 HOST = "localhost"
 USER = "root"
-PASSWD = "see26288"
+PASSWD = ""
 DATABASE = "KLSE"
 
 
