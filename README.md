@@ -1,6 +1,6 @@
 # Data Mining 
 
-1) Acquisition of data (Group)
+1) Acquisition of data 
 Limited to the following area: 
 •	KLSE stock data (Web crawler)
 •	https://www.thestar.com.my/business/marketwatch/stocks/?qcounter=SAPNRG
@@ -13,7 +13,7 @@ Python Source Code:
 SQL source code
 •	KLSE_DB.sql - To create KLSE database and related tables for MySQL
 
-2)	Milestone 2 (Management of data (Group))
+2)	Milestone 2 (Management of data)
 
 Management of data
 •	Pulling together large volumes of data and merging multiple sources (such as web information (stock index), social media, WhatsApp and news) to create the one big analysis record for analytics. Expect to do this process over and over again until a useful set of data is prepared.
